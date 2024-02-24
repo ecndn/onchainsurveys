@@ -22,6 +22,7 @@ You should have a mongodb account. The URI connection string needs username, pas
 
 Change the mongodb fields according to you in the .env file in the api folder.
 
+
 <h3>Step 4: Run the project </h3>
 
 Run the following code on the terminal screen and visit the http://localhost:8800 link.
@@ -118,30 +119,6 @@ Run the following code on the terminal screen and visit the http://localhost:880
 </tr>  
 </tbody>
 </table>
-
-Include the following variables in the .env file:
-
-<pre>
-MONGO=mongodb://your_mongodb_connection
-jwt=your_jwt_secret
-PORT=8800 
-<pre>
-  
-<h2>Launch a MongoDB</h2>
-
-Local MongoDB
-Install MongoDB on your local machine following the official documentation.
-Start the MongoDB service.
-Update the MONGO in the server's .env file with your local MongoDB connection string:
-MONGO=mongodb://your_mongodb_connection
-
-MongoDB Atlas
-Create a free account on MongoDB Atlas.
-Set up a new cluster.
-Obtain the connection string for your cluster.
-Update the MONGO in the server's .env file with the obtained connection string:
-MONGO=your_mongodb_atlas_connection_string
-
 
 <h2>CLIENT SETUP</h2>
 
