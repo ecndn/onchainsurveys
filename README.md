@@ -5,7 +5,7 @@ Onchain Surveys will allow users to create public surveys to collect opinions fr
 <h2>API SETUP</h2>
 
 <h3>Step 1: Clone this project to www or htdocs folder</h3>
-git clone [https://github.com/onchainsurveys/onchain.git](https://github.com/ecndn/onchainsurveys.git)
+git clone https://github.com/ecndn/onchainsurveys.git
 
 
 <h3>Step 2: Install packages for API</h3>
