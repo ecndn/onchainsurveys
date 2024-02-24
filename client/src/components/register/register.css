@@ -1,0 +1,11 @@
+.register {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registerContent {
+   top:60px;
+   position: relative;
+}

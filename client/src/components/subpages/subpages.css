@@ -1,0 +1,40 @@
+.subpages {
+    background-color: #c31421;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.subpagesContainer {
+    width: 100%;
+    max-width: 1200px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subpagesInfo {
+    width: 100%;
+    text-align: center;
+}
+
+.subpagesInfo h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    color:white;
+
+}
+
+.subpagesInfo p {
+    font-size: 16px;
+    color:White;
+    font-family: "Montserrat", sans-serif;
+}
+
+.subpagesContent {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 16%);
+    height: 200px;
+}
+ 

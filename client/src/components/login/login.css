@@ -1,0 +1,67 @@
+.login {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column; 
+}
+
+.loginContainer h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+.loginInput {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 10px 0;
+    color: #222;
+}
+
+.loginButtonRed {
+    width: 312px;
+    height: 35px;
+    background-color: #c31421; 
+    color: white;
+    border-radius: 3px;
+    border:none;
+}
+
+.errorMessage {
+    color:#c31421;
+    text-align: center; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.successMessage {
+    color:lightgreen;
+    text-align: center; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.anAccount {
+    margin: 30px 0;
+}
+.anAccount a{
+    font-family: "Montserrat", sans-serif;
+    font-size:13px;
+    color: #121212;
+    text-align: center;
+   
+}
+
+.anAccount a:Hover{ 
+    color: #c31421; 
+   
+}
+
+ 

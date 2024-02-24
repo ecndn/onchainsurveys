@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600 !important;
+    position: relative;
+    top:25px;
+    margin-bottom: 30px;
+  }
+  
+#surveys th {
+    background-color: #c31421;
+    color:white;
+}
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+    color:#1a1a1a;
+    height:35px
+  }
+   
+  tr:nth-child(even){background-color: #f2f2f2}
+
+  td a {
+    color:#1a1a1a
+  }
+
+  td a:Hover {
+    color:#c31421
+  }

@@ -1,0 +1,114 @@
+.main {
+    height: 50%;
+   /* display: flex; */
+}
+
+.mainContainer {
+    width: 100%;
+    /*max-width: 1024px;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftMain {
+    width: 100%;
+    background: #c31421;
+}
+
+.leftMain h1 {
+    font-size: 50px;
+    padding: 70px 15px 0px 115px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.leftMain p {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0px 115px;
+}
+
+.rightMain {
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-image: url('../../images/bg-desktop.jpg');
+}
+
+.aboutRightMain {
+    height: 70vh;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-image: url('../../images/bg-desktop.jpg');
+}
+
+.mainButton {
+    background-color: #1c1c1c;
+    border:none;
+    margin-top: 40px;
+    border-radius: 3px;
+    padding: 20px 100px;
+    color: white;
+    text-align: center;
+    margin-left: 115px;
+    font-size: 15px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.mainButton:hover {
+    background-color: #141313;
+}
+
+.mainButton a {
+    color:white;
+    text-decoration: none;
+}
+
+.AboutUs {
+   
+    background-color: #fff;
+    display: flex;
+    justify-content: center; 
+}
+
+.AboutUsContainer {
+    max-width: 1200px;
+    margin-bottom: 60px;
+}
+
+.AboutUs h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin: 50px 0 20px 0;
+    letter-spacing: -1px;
+}
+
+.AboutUs p {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+
+.AboutUs a {
+    color:#141313
+}
+
+.AboutUs a:Hover {
+    color:#c31421
+}
+
+.underLine {
+    border-bottom: 3px solid #c31421;
+    padding: 1px;
+}

@@ -1,0 +1,271 @@
+body{
+    margin: 0px;
+}
+.NavbarTop {
+    
+    background-color: #fff;
+    display: flex; 
+    justify-content: center;
+}
+
+.navContainer{
+    width: 100%;
+   /* max-width: 1200px; */
+    color:#00cc83;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    color:#c31421;
+     letter-spacing: -1.4px;
+}
+
+.logoThin {font-weight: 100;}
+
+.navContainer .navButton  a {
+    margin-left: 20px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #c31421;
+    color: white;
+}
+
+.userInfo {
+    color: #c31421;
+    font-family: "Montserrat", sans-serif;
+    font-size:15px;
+    font-weight: 600;
+}
+
+ 
+
+.dropdownMenu:hover .dropdownMenu-content {
+    display: block;
+}
+
+
+.fsd {
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+  }
+  
+  .fsd ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .fsd li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    font-family:"Montserrat", sans-serif;
+    color: #c31421;
+  }
+  
+  .fsd li a:hover,
+  .fsd .menu-btn:hover {
+    background-color: #f4f4f4;
+  }
+
+  .navbarDiv li:hover .subMenu  {
+    display: block;
+  }
+  
+  .subMenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 1px 2px;
+    z-index: 1;
+  }
+  
+  .subMenu li {
+      width: 100%; 
+  }
+
+  .fsd .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+    left: 7.4%;
+    position: relative;
+  }
+  
+  /* menu */
+  
+  .fsd .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .fsd .menu-icon {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .fsd .menu-icon .navicon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .fsd .menu-icon .navicon:before,
+  .fsd .menu-icon .navicon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .fsd .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .fsd .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  /* menu btn */
+  
+  .fsd .menu-btn {
+    display: none;
+  }
+  
+  .fsd .menu-btn:checked ~ .menu {
+    max-height: 100%;
+  }
+  
+  .fsd .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .fsd .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .fsd .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .fsd .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .fsd .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+  /* 48em = 768px */
+  @media only screen and (max-width: 600px) { 
+
+    .mainContainer {
+        display: block !important;
+    }
+
+    .subMenu {
+        display: none;
+        position: relative !important;
+        background-color: #c31421;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+     .subMenu > li a {
+         color: white;
+         font-family: "Montserrat", sans-serif;
+         padding: 10px 10px !important;
+         background: none !important;
+         border-right: none !important;
+     } 
+
+     .subMenu > li a:hover { 
+        background-color: none !important;
+    } 
+
+    .leftMain h1 {
+        padding: 40px 15px 0px 20px !important;
+    }
+
+    .leftMain p {
+        padding: 0 20px !important;
+    }
+
+    .mainButton {
+        margin-left: 17px !important;
+        margin-top: 15px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .AboutUs p { padding: 15px !important; }
+
+    .footerContainer { 
+        display: block !important; 
+        text-align: center; 
+        /* justify-content: space-between; */
+    }
+    .footer {
+        padding: 15px !important;
+    }
+
+    .socialIcon {
+        display: -webkit-inline-box !important;
+        margin: 0px 75px !important;
+    }
+
+    .fsd .logo {
+        left: 0 !important; 
+    } 
+
+  }
+
+
+
+  @media  (min-width: 600px) {
+      
+    .fsd li {
+      float: left;
+    }
+
+    .fsd .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .fsd .menu-icon {
+      display: none;
+    }
+
+  
+
+  }

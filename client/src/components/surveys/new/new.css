@@ -1,0 +1,118 @@
+ 
+
+.react-datepicker__input-container input {
+    width: 98.5%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    margin: 10px 0;
+    color: #222;
+}
+
+.add {
+    background-color: #61B136;
+    padding: 3px 7px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 10px;
+}
+.remove {
+    background-color: #c31421;
+    padding: 3px 7px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    margin-right: 7px;
+    font-size: 10px;
+}
+
+.rjsf > div > button.btn {
+    background-color: #c31421;
+    border-radius: 3px;
+    padding: 10px;
+    color:#fff;
+    border:0px solid #fff
+  }
+
+fieldset {
+    border:1px solid #ccc;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+fieldset p {
+    font-size:11px;
+    color:#ccc;
+    margin:0px
+}
+
+#root_user_id {
+    overflow: hidden;
+}
+
+#root_anyOf_0_Options, #root_anyOf_1_Options, #root_anyOf_2_Options, #root_anyOf_3_Options, #root_anyOf_4_Options {
+    border:0px solid #ccc;
+    padding: 0px;
+    margin: 0;
+}
+.form-group label {
+    font-size: 12px;
+}
+
+.rjsf >  div > .field-array-of-array { 
+    border:1px solid #ccc;
+} 
+.array-item-remove {
+    background-color: #c31421;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+    border: 0px solid #fff;
+    position: absolute;
+    float: right;
+    right: 6%;
+}
+
+.array-item-remove:after {
+    content:"Del"
+}
+
+.btn-add  {
+    background-color: #61B136; 
+    border-radius: 3px;
+    padding: 5px;
+    color:#fff;
+    font-size: 10px;
+    border:0px solid #fff;
+    position: absolute; 
+}
+.btn-add > i {
+    display: none; 
+}
+
+.btn-add:after {
+    content: "Add";  
+}
+
+.array-item-move-up {
+    display: none;
+}
+
+.array-item-move-down {
+    display: none;
+}
+
+fieldset select {
+    overflow: hidden !important;
+    display: none;
+}
+ 

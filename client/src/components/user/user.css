@@ -1,0 +1,95 @@
+.userDetails {
+    display: flex; 
+    justify-content: center;
+    height: auto;
+}
+
+.userContainer {
+    width: 100%;
+    max-width: 1200px;
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.sidebar {
+    width: 33.3%;
+    background-color: #f4f4f4;
+    margin: 100px 0px;
+    max-width: 340px;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+    list-style: none;
+    color: #121212 !important;
+}
+
+.sidebar ul li a {
+    color: #121212 !important;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.sidebar ul li i {
+    color: #121212 !important;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+}
+
+.sidebar h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #c31421;
+    padding: 10px 40px;
+}
+
+.content {
+    width: 66.6%;
+    position: relative;
+    top: -20px;
+}
+
+.content p {
+    color: #121212;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+.loginButton {
+    width: 212px;
+    height: 35px;
+    background-color: #c31421; 
+    color: white;
+    margin: 30px 0;
+    border-radius: 3px;
+    border:none;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    color: #121212;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+.form-group input { 
+        width: 98.5%;
+        height: 25px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 5px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        margin: 10px 0;
+        color: #222;
+ 
+}

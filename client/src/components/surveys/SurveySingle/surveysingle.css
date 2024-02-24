@@ -1,0 +1,29 @@
+.itemDiv {
+    color:#333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.questionsBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalVotes {
+    color:#333;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+label {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.loginButton:Hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

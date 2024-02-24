@@ -1,0 +1,39 @@
+.footer { 
+    display: flex; 
+    background-color: #1a1a1a;
+    justify-content: center;
+    height: 70px; 
+}
+
+.footerContainer {
+    width: 100%;
+    max-width: 1200px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.copyright {
+    font-size: 15px;
+    align-items: center;
+    font-family: "Montserrrat", sans-serif;
+}
+
+.socialIcons {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialIcons li {
+    float: left;
+    list-style: none;
+    padding-left: 15px;
+}
+
+.socialIcons li > a {
+    font-size: 15px;
+    font-family: "Montserrrat", sans-serif;
+    color: #fff;
+}
